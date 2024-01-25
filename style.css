@@ -1,0 +1,92 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 19px;
+    background-color: rgb(50, 65, 197);
+}
+
+header h1 {
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .container {
+    align-items: flex-start;
+    padding-top: 25px;
+}
+
+section .container h3 {
+    padding-top: 30px;
+}
+
+section .container h2 {
+    color: rgb(50, 65, 197);
+}
+
+.linha {
+    border-bottom: 2px solid blue;width:100%;
+    margin-top: 15px; 
+}
+   
+
+section .container img {
+    height: 300px;
+    padding-right : 18px;
+}
+
+article .container h2 {
+    color:  rgb(50, 65, 197);
+    padding-top: 100px;
+}
+
+article .container ul li img {
+    width: 200px;
+    padding-top: 20px;    
+}
+
+li {
+    list-style: none;
+    width: 200px;
+    height: 500px;
+}
+
+.vitrine li button {
+    width: 150px;
+    height: 38px;
+    background-color: blue;
+    font-weight: 700;
+    color: white;
+}
+
+.vitrine li h3, p {
+    padding: 25px 0;
+}
+
+.vitrine {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
